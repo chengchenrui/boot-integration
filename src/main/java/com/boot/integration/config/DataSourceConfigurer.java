@@ -19,14 +19,4 @@ public class DataSourceConfigurer {
     public DataSource dataSourceOne() {
         return DruidDataSourceBuilder.create().build();
     }
-
-   /* @Autowired
-    private UserDao userDao;
-
-    @PostConstruct
-    public void init() {
-        for (int i = 1; i <= 100; i++) {
-            userDao.save(new User("TEST-NAME-" + i, i + 10));
-        }
-    }*/
 }
