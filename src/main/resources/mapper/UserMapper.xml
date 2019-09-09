@@ -9,7 +9,7 @@
     </resultMap>
 
     <sql id="Base_Column_List">
-        id,name,login_name,password
+        id, name, login_name, password
     </sql>
 
     <select id="findByLoginName" resultMap="BaseResultMap" parameterType="com.boot.integration.model.User">
